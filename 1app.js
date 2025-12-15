@@ -2,10 +2,10 @@
 segundos y finalmente “Fin”.
 Meta: que reconozcan el orden real de ejecución.*/
 
-Console.log("Inicio!")
+Console.log("Inicio!")//se imprime inmediatamente un mensaje de incio
 
-setTimeout(() => {
-    console.log("Procesando tarea...");
+setTimeout(() => {//Se agenda una funcion para que se ejecute despues de 2 segundos
+    console.log("Procesando tarea...");//cuando se cumplan los dos segundos, se imprime este mensaje
 2000});
 
-console.log("Fin!")
+console.log("Fin!")//se imprime inmediatamente un mensaje de fin
