@@ -84,13 +84,13 @@ buscarUsuario() // Se ejecuta la primera promesa
 
 function buscarUsuario() { // Se define una función que devuelve una Promesa
   return new Promise((resolve) => {
-    setTimeout(() => resolve("usuario encontrado"), 2000); // Se resuelve en 2 segundos
+    setTimeout(() => resolve("usuario encontrado"), 1000); // Se resuelve en 2 segundos
   });
 }
 
 function consultarPermisos() { // Se define otra función que devuelve una Promesa
   return new Promise((resolve) => {
-    setTimeout(() => resolve("permiso consultado"), 1000); // Se resuelve en 1 segundo
+    setTimeout(() => resolve("permiso consultado"), 2000); // Se resuelve en 1 segundo
   });
 }
 
